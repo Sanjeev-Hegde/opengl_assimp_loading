@@ -1,0 +1,42 @@
+newmtl wall_lamp1_pbr
+Kd 1 1 1
+map_Kd .\wall_lamp1_wall_lamp1_AlbedoTransparency.png
+map_Bump .\wall_lamp1_wall_lamp1_Normal.png
+illum 2
+
+newmtl floor
+Kd 1 1 1
+map_Kd .\floor.png
+illum 2
+
+newmtl 3
+Kd 1 1 1
+map_Kd .\3.png
+illum 2
+
+newmtl york-wallcoverings-wallpaper-pa5665-64_1000
+Kd 1 1 1
+map_Kd .\york-wallcoverings-wallpaper-pa5665-64_1000.png
+illum 2
+
+newmtl Teachers_Board
+Kd 0.5882353 0.5882353 0.5882353
+Ks 0.5 0.5 0.5
+map_Kd .\Teachers_Board.png
+illum 2
+
+newmtl depositphotos_23537051-stock-illustration-background-retro-wallpaper-pattern-seamless
+Kd 1 1 1
+map_Kd .\depositphotos_23537051-stock-illustration-background-retro-wallpaper-pattern-seamless.png
+illum 2
+
+newmtl ecran
+Kd 0.8 0.8 0.8
+map_Kd .\ecran_ecran_AlbedoTransparency.png
+map_Bump .\ecran_ecran_Normal.png
+illum 2
+
+newmtl Paint_11
+map_Kd .\Paint_10.png
+illum 2
+

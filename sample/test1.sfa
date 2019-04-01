@@ -1,0 +1,283 @@
+{
+  materials: [
+    {
+      name: 'wall_lamp1_pbr',
+      parameters: [
+        {
+          baseColor: 'wall_lamp1_wall_lamp1_AlbedoTransparency',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'floor',
+      parameters: [
+        {
+          baseColor: 'floor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '3',
+      parameters: [
+        {
+          baseColor: '3',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'york-wallcoverings-wallpaper-pa5665-64_1000',
+      parameters: [
+        {
+          baseColor: 'york-wallcoverings-wallpaper-pa5665-64_1000',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Teachers_Board',
+      parameters: [
+        {
+          baseColor: 'Teachers_Board',
+        },
+        {
+          baseColorTint: [
+            0.58823499999999995,
+            0.58823499999999995,
+            0.58823499999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'depositphotos_23537051-stock-illustration-background-retro-wallpaper-pattern-seamless',
+      parameters: [
+        {
+          baseColor: 'depositphotos_23537051-stock-illustration-background-retro-wallpaper-pattern-seamless',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'ecran',
+      parameters: [
+        {
+          baseColor: 'ecran_ecran_AlbedoTransparency',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Paint_11',
+      parameters: [
+        {
+          baseColor: 'Paint_10',
+        },
+        {
+          baseColorTint: [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.59999999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/meeting_room/template/test1.obj',
+    name: 'test1',
+    recenter: 'root',
+    scale: 0.041683999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\wall_lamp1_wall_lamp1_AlbedoTransparency.png',
+      name: 'wall_lamp1_wall_lamp1_AlbedoTransparency',
+      pipeline_name: '.\\wall_lamp1_wall_lamp1_AlbedoTransparency.png',
+    },
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\wall_lamp1_wall_lamp1_Normal.png',
+      name: 'wall_lamp1_wall_lamp1_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '.\\wall_lamp1_wall_lamp1_Normal.png',
+    },
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\Teachers_Board.png',
+      name: 'Teachers_Board',
+      pipeline_name: '.\\Teachers_Board.png',
+    },
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\floor.png',
+      name: 'floor',
+      pipeline_name: '.\\floor.png',
+    },
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\ecran_ecran_Normal.png',
+      name: 'ecran_ecran_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '.\\ecran_ecran_Normal.png',
+    },
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\ecran_ecran_AlbedoTransparency.png',
+      name: 'ecran_ecran_AlbedoTransparency',
+      pipeline_name: '.\\ecran_ecran_AlbedoTransparency.png',
+    },
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\3.png',
+      name: '3',
+      pipeline_name: '.\\3.png',
+    },
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\depositphotos_23537051-stock-illustration-background-retro-wallpaper-pattern-seamless.png',
+      name: 'depositphotos_23537051-stock-illustration-background-retro-wallpaper-pattern-seamless',
+      pipeline_name: '.\\depositphotos_23537051-stock-illustration-background-retro-wallpaper-pattern-seamless.png',
+    },
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\york-wallcoverings-wallpaper-pa5665-64_1000.png',
+      name: 'york-wallcoverings-wallpaper-pa5665-64_1000',
+      pipeline_name: '.\\york-wallcoverings-wallpaper-pa5665-64_1000.png',
+    },
+    {
+      file: 'sampledata/models/meeting_room/template\\.\\Paint_10.png',
+      name: 'Paint_10',
+      pipeline_name: '.\\Paint_10.png',
+    },
+  ],
+  version: '0.54:2',
+}
